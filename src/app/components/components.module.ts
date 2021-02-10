@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SlidesComponent } from './slides/slides.component';
 import { StartComponent } from './start/start.component';
 import { LogoComponent } from './logo/logo.component';
+import { IonicModule } from '@ionic/angular';
 
 
 
@@ -10,7 +11,8 @@ import { LogoComponent } from './logo/logo.component';
   declarations: [SlidesComponent, StartComponent, LogoComponent],
   exports: [SlidesComponent, StartComponent, LogoComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule.forRoot()
   ]
 })
 export class ComponentsModule { }

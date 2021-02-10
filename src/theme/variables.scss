@@ -74,6 +74,18 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  ion-tab-button.tab-selected {
+    ion-icon,
+    ion-label {
+      color: var(--ion-color-primary) !important;
+      --ion-color-base: var(--ion-color-primary) !important;
+    }
+  }
+}
+
+.center {
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {

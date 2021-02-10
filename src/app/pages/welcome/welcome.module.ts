@@ -8,6 +8,7 @@ import { WelcomePageRoutingModule } from './welcome-routing.module';
 
 import { WelcomePage } from './welcome.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { SlidesComponent } from 'src/app/components/slides/slides.component';
 
 @NgModule({
   imports: [
