@@ -1,0 +1,8 @@
+{
+  "name": "prova",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "5c8d2650"
+}
